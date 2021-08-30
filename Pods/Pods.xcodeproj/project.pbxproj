@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183A8419DEB259C7E4F5D24B89AF9288 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4BFBE30E39D35FDB41C696D4415F /* UIViewController+Toast.swift */; };
+		59F5D8F01CADE12348D8DA74B74CA2C4 /* ValifySelfieDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DFDA2710FA0ACB434F91F8A727709 /* ValifySelfieDelegate.swift */; };
+		6499158195AE8B26045AE770D2BFFDDA /* EntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9590252E09BB9B770FE94BD002849FA /* EntryPoint.swift */; };
+		A09863630C6EDCCB1784416F218826F5 /* Pods-ValifyDemoFromPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0344EFF1BC1BBB961E44328B70764DA7 /* Pods-ValifyDemoFromPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47B34CEB420FED7CDAD5C80D3F57065 /* ValifySelfie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CFD37E1A7AEC9CFC2478164DFE05A /* ValifySelfie-dummy.m */; };
+		C20D9020B89D58F9DE6056CD205BCE18 /* Pods-ValifyDemoFromPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E760EF8B2B9FC93579E1498EFDF7EB /* Pods-ValifyDemoFromPod-dummy.m */; };
+		CAC91D939F9F00B60E7D2D9D7E70BA75 /* ValifySelfie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8A0B8D30F5656ECBFF5E7BF1C791AF /* ValifySelfie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2D7302A51F6E222312E1D927E8D1F0 /* CapturedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84863E965BDCB517888DA28D3CC9D272 /* CapturedImageViewController.swift */; };
+		EAFEFFBA4F7D6819DD19D720750A0B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED8EB3F67FCBE87DAC40CCE2ABD6ABA6 /* CapturedImageViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2741AC8FB75D8F574237D7FED6A9AC7D /* CapturedImageViewController.xib */; };
+		F9330352A4561D633B1475831AA30037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FD5E1852C4D50D505AD7D00553D9FA08 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690347B177F941F1E5A01E1943D48E21 /* CameraViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		914D243B85E07A705491666A7278B5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ED8790897966174E4A64781F2C677BF;
+			remoteInfo = ValifySelfie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0344EFF1BC1BBB961E44328B70764DA7 /* Pods-ValifyDemoFromPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValifyDemoFromPod-umbrella.h"; sourceTree = "<group>"; };
+		094CFD37E1A7AEC9CFC2478164DFE05A /* ValifySelfie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValifySelfie-dummy.m"; sourceTree = "<group>"; };
+		19352FC56E54DC140BB3A58A5F1D7874 /* ValifySelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValifySelfie.release.xcconfig; sourceTree = "<group>"; };
+		2741AC8FB75D8F574237D7FED6A9AC7D /* CapturedImageViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CapturedImageViewController.xib; path = Source/Details/CapturedImageViewController.xib; sourceTree = "<group>"; };
+		2C07AEE5C3626F7AE174342F2537B853 /* ValifySelfie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValifySelfie.modulemap; sourceTree = "<group>"; };
+		38BF4BFBE30E39D35FDB41C696D4415F /* UIViewController+Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Toast.swift"; path = "Source/Extension/UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		3D0AEA4C94040CF7618C94F888FB371E /* Pods-ValifyDemoFromPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValifyDemoFromPod.release.xcconfig"; sourceTree = "<group>"; };
+		476276C9AAF8284E78F10739DCD8FFCF /* ValifySelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValifySelfie.debug.xcconfig; sourceTree = "<group>"; };
+		477DB6840132945ACC56422A5E57D089 /* ValifySelfie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValifySelfie-prefix.pch"; sourceTree = "<group>"; };
+		49B2184B4DF5E8F4DE13D3D1A246E850 /* Pods_ValifyDemoFromPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValifyDemoFromPod.framework; path = "Pods-ValifyDemoFromPod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		674DFDA2710FA0ACB434F91F8A727709 /* ValifySelfieDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValifySelfieDelegate.swift; path = Source/Delegate/ValifySelfieDelegate.swift; sourceTree = "<group>"; };
+		690347B177F941F1E5A01E1943D48E21 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Source/Camera/CameraViewController.swift; sourceTree = "<group>"; };
+		6BA7D8F5B6B70CAF1475710AE3D4B9A5 /* ValifySelfie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValifySelfie-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B61BBAF237F2C8325011F13739CAF2A /* ValifySelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValifySelfie.framework; path = ValifySelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84863E965BDCB517888DA28D3CC9D272 /* CapturedImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CapturedImageViewController.swift; path = Source/Details/CapturedImageViewController.swift; sourceTree = "<group>"; };
+		9B73AA3072DC62DA66635D35834F5470 /* Pods-ValifyDemoFromPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValifyDemoFromPod-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B56230C5FDCD05029A42AC402E98D151 /* Pods-ValifyDemoFromPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValifyDemoFromPod-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5E760EF8B2B9FC93579E1498EFDF7EB /* Pods-ValifyDemoFromPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValifyDemoFromPod-dummy.m"; sourceTree = "<group>"; };
+		C2D9B31AE34F07BEFD45B3DFF9325656 /* Pods-ValifyDemoFromPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValifyDemoFromPod.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8A0B8D30F5656ECBFF5E7BF1C791AF /* ValifySelfie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValifySelfie-umbrella.h"; sourceTree = "<group>"; };
+		D58A47122B68A0481144D59EC0916D7C /* Pods-ValifyDemoFromPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValifyDemoFromPod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9590252E09BB9B770FE94BD002849FA /* EntryPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntryPoint.swift; path = Source/EntryPoint/EntryPoint.swift; sourceTree = "<group>"; };
+		F53DDE9FDE8261D553DEA2EBF2347495 /* Pods-ValifyDemoFromPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ValifyDemoFromPod.modulemap"; sourceTree = "<group>"; };
+		F5E3868789881F919541CEA4E2E012A4 /* Pods-ValifyDemoFromPod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValifyDemoFromPod-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECEE1563FCA8BA24775FCEE38241DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFEFFBA4F7D6819DD19D720750A0B5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72EB1E0999D5E5C27BE2A2CB2133757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9330352A4561D633B1475831AA30037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC57E9DEE3CA84D5C14AC8A6C862C0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C07AEE5C3626F7AE174342F2537B853 /* ValifySelfie.modulemap */,
+				094CFD37E1A7AEC9CFC2478164DFE05A /* ValifySelfie-dummy.m */,
+				6BA7D8F5B6B70CAF1475710AE3D4B9A5 /* ValifySelfie-Info.plist */,
+				477DB6840132945ACC56422A5E57D089 /* ValifySelfie-prefix.pch */,
+				CE8A0B8D30F5656ECBFF5E7BF1C791AF /* ValifySelfie-umbrella.h */,
+				476276C9AAF8284E78F10739DCD8FFCF /* ValifySelfie.debug.xcconfig */,
+				19352FC56E54DC140BB3A58A5F1D7874 /* ValifySelfie.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ValifySelfie";
+			sourceTree = "<group>";
+		};
+		115651182580B0CB8C89BD9398810304 /* Pods-ValifyDemoFromPod */ = {
+			isa = PBXGroup;
+			children = (
+				F53DDE9FDE8261D553DEA2EBF2347495 /* Pods-ValifyDemoFromPod.modulemap */,
+				D58A47122B68A0481144D59EC0916D7C /* Pods-ValifyDemoFromPod-acknowledgements.markdown */,
+				B56230C5FDCD05029A42AC402E98D151 /* Pods-ValifyDemoFromPod-acknowledgements.plist */,
+				B5E760EF8B2B9FC93579E1498EFDF7EB /* Pods-ValifyDemoFromPod-dummy.m */,
+				F5E3868789881F919541CEA4E2E012A4 /* Pods-ValifyDemoFromPod-frameworks.sh */,
+				9B73AA3072DC62DA66635D35834F5470 /* Pods-ValifyDemoFromPod-Info.plist */,
+				0344EFF1BC1BBB961E44328B70764DA7 /* Pods-ValifyDemoFromPod-umbrella.h */,
+				C2D9B31AE34F07BEFD45B3DFF9325656 /* Pods-ValifyDemoFromPod.debug.xcconfig */,
+				3D0AEA4C94040CF7618C94F888FB371E /* Pods-ValifyDemoFromPod.release.xcconfig */,
+			);
+			name = "Pods-ValifyDemoFromPod";
+			path = "Target Support Files/Pods-ValifyDemoFromPod";
+			sourceTree = "<group>";
+		};
+		3530080AFE555CB160923B5FC7774B72 /* ValifySelfie */ = {
+			isa = PBXGroup;
+			children = (
+				690347B177F941F1E5A01E1943D48E21 /* CameraViewController.swift */,
+				84863E965BDCB517888DA28D3CC9D272 /* CapturedImageViewController.swift */,
+				2741AC8FB75D8F574237D7FED6A9AC7D /* CapturedImageViewController.xib */,
+				E9590252E09BB9B770FE94BD002849FA /* EntryPoint.swift */,
+				38BF4BFBE30E39D35FDB41C696D4415F /* UIViewController+Toast.swift */,
+				674DFDA2710FA0ACB434F91F8A727709 /* ValifySelfieDelegate.swift */,
+				0DC57E9DEE3CA84D5C14AC8A6C862C0B /* Support Files */,
+			);
+			name = ValifySelfie;
+			path = ValifySelfie;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9927BFF5EF07FD1D3E72949B85953DCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				115651182580B0CB8C89BD9398810304 /* Pods-ValifyDemoFromPod */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B01573419D535E24E402C6B21833F656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B2184B4DF5E8F4DE13D3D1A246E850 /* Pods_ValifyDemoFromPod.framework */,
+				7B61BBAF237F2C8325011F13739CAF2A /* ValifySelfie.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B8CF6D29D3FB4B238420845D6A756A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3530080AFE555CB160923B5FC7774B72 /* ValifySelfie */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B3B8CF6D29D3FB4B238420845D6A756A /* Pods */,
+				B01573419D535E24E402C6B21833F656 /* Products */,
+				9927BFF5EF07FD1D3E72949B85953DCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		294B581FAD8827F0DAC9E801C7FC73D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC91D939F9F00B60E7D2D9D7E70BA75 /* ValifySelfie-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B66EEF3198453BEA04FE2E0DD647941 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09863630C6EDCCB1784416F218826F5 /* Pods-ValifyDemoFromPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7ED8790897966174E4A64781F2C677BF /* ValifySelfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31F8E98BE7329F756059D39AF4F6970 /* Build configuration list for PBXNativeTarget "ValifySelfie" */;
+			buildPhases = (
+				294B581FAD8827F0DAC9E801C7FC73D4 /* Headers */,
+				96B63BAC48981B98201853F140E7BEC4 /* Sources */,
+				4ECEE1563FCA8BA24775FCEE38241DCC /* Frameworks */,
+				27CA7737805A4E931FF1C8C73AFB4248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValifySelfie;
+			productName = ValifySelfie;
+			productReference = 7B61BBAF237F2C8325011F13739CAF2A /* ValifySelfie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97C9AB68A62903319274A5691759C09E /* Pods-ValifyDemoFromPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FB37D5979F7D5BC112808998390DF2 /* Build configuration list for PBXNativeTarget "Pods-ValifyDemoFromPod" */;
+			buildPhases = (
+				7B66EEF3198453BEA04FE2E0DD647941 /* Headers */,
+				64C8ACBD54F25192FE14E26BF63F8B3C /* Sources */,
+				E72EB1E0999D5E5C27BE2A2CB2133757 /* Frameworks */,
+				BDA3BA7D79BC7238288491E8B8AA2596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C629D004C22810688DD56BA27A7AF5D /* PBXTargetDependency */,
+			);
+			name = "Pods-ValifyDemoFromPod";
+			productName = "Pods-ValifyDemoFromPod";
+			productReference = 49B2184B4DF5E8F4DE13D3D1A246E850 /* Pods_ValifyDemoFromPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B01573419D535E24E402C6B21833F656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C9AB68A62903319274A5691759C09E /* Pods-ValifyDemoFromPod */,
+				7ED8790897966174E4A64781F2C677BF /* ValifySelfie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CA7737805A4E931FF1C8C73AFB4248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA3BA7D79BC7238288491E8B8AA2596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C8ACBD54F25192FE14E26BF63F8B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20D9020B89D58F9DE6056CD205BCE18 /* Pods-ValifyDemoFromPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B63BAC48981B98201853F140E7BEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5E1852C4D50D505AD7D00553D9FA08 /* CameraViewController.swift in Sources */,
+				CE2D7302A51F6E222312E1D927E8D1F0 /* CapturedImageViewController.swift in Sources */,
+				ED8EB3F67FCBE87DAC40CCE2ABD6ABA6 /* CapturedImageViewController.xib in Sources */,
+				6499158195AE8B26045AE770D2BFFDDA /* EntryPoint.swift in Sources */,
+				183A8419DEB259C7E4F5D24B89AF9288 /* UIViewController+Toast.swift in Sources */,
+				A47B34CEB420FED7CDAD5C80D3F57065 /* ValifySelfie-dummy.m in Sources */,
+				59F5D8F01CADE12348D8DA74B74CA2C4 /* ValifySelfieDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C629D004C22810688DD56BA27A7AF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ValifySelfie;
+			target = 7ED8790897966174E4A64781F2C677BF /* ValifySelfie */;
+			targetProxy = 914D243B85E07A705491666A7278B5E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57247B43F9B69E2E86C6FB2BFBD48AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D9B31AE34F07BEFD45B3DFF9325656 /* Pods-ValifyDemoFromPod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ValifyDemoFromPod/Pods-ValifyDemoFromPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ValifyDemoFromPod/Pods-ValifyDemoFromPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDB7C5E78FE58A3F3521E029F03EBC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476276C9AAF8284E78F10739DCD8FFCF /* ValifySelfie.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValifySelfie/ValifySelfie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValifySelfie/ValifySelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValifySelfie/ValifySelfie.modulemap";
+				PRODUCT_MODULE_NAME = ValifySelfie;
+				PRODUCT_NAME = ValifySelfie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9CF8876512814747B3524CD0BAD87A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19352FC56E54DC140BB3A58A5F1D7874 /* ValifySelfie.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValifySelfie/ValifySelfie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValifySelfie/ValifySelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValifySelfie/ValifySelfie.modulemap";
+				PRODUCT_MODULE_NAME = ValifySelfie;
+				PRODUCT_NAME = ValifySelfie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B4AB74C819ED70A8DE3133C0B666A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0AEA4C94040CF7618C94F888FB371E /* Pods-ValifyDemoFromPod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ValifyDemoFromPod/Pods-ValifyDemoFromPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ValifyDemoFromPod/Pods-ValifyDemoFromPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FB37D5979F7D5BC112808998390DF2 /* Build configuration list for PBXNativeTarget "Pods-ValifyDemoFromPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57247B43F9B69E2E86C6FB2BFBD48AB5 /* Debug */,
+				F4B4AB74C819ED70A8DE3133C0B666A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31F8E98BE7329F756059D39AF4F6970 /* Build configuration list for PBXNativeTarget "ValifySelfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB7C5E78FE58A3F3521E029F03EBC10 /* Debug */,
+				E9CF8876512814747B3524CD0BAD87A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module ValifySelfie {
+  umbrella header "ValifySelfie-umbrella.h"
+
+  export *
+  module * { export * }
+}

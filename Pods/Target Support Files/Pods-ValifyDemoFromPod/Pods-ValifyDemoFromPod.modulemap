@@ -1,0 +1,6 @@
+framework module Pods_ValifyDemoFromPod {
+  umbrella header "Pods-ValifyDemoFromPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

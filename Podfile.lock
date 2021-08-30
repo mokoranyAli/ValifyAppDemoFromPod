@@ -1,0 +1,16 @@
+PODS:
+  - ValifySelfie (0.1.1)
+
+DEPENDENCIES:
+  - ValifySelfie (= 0.1.1)
+
+SPEC REPOS:
+  trunk:
+    - ValifySelfie
+
+SPEC CHECKSUMS:
+  ValifySelfie: 4418817d981294e51836c6bf4017df34630132e6
+
+PODFILE CHECKSUM: 348eb6ec226644d62036464c4753dc8605a9fc7a
+
+COCOAPODS: 1.10.2
